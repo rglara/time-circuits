@@ -3,7 +3,10 @@ import React from 'react';
 class TimeRow extends React.Component {
     render() {
         return (
-            <div>TimeRow</div>
+            <div>
+                <div>{this.props.label}</div>
+                <div>{this.props.time.toString()}</div>
+            </div>
         );
     }
 };
