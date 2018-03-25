@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TimeCircuits from './components/time-circuits';
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <TimeCircuits />,
   document.getElementById('root')
 );
