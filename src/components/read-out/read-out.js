@@ -10,18 +10,24 @@ class ReadOut extends React.Component {
 
         return (
             <div className="read-out">
-                <TimeRow
-                    label="Destination Time"
-                    time={destTime}
-                />
-                <TimeRow
-                    label="Present Time"
-                    time={presentTime}
-                />
-                <TimeRow
-                    label="Last Time Departed"
-                    time={lastTime}
-                />
+                <div className="module">
+                    <TimeRow
+                        label="Destination Time"
+                        time={destTime}
+                    />
+                </div>
+                <div className="module">
+                    <TimeRow
+                        label="Present Time"
+                        time={presentTime}
+                    />
+                </div>
+                <div className="module">
+                    <TimeRow
+                        label="Last Time Departed"
+                        time={lastTime}
+                    />
+                </div>
             </div>
         );
     }
