@@ -1,7 +1,7 @@
 {
-  "name": "flux-capacitor",
+  "name": "time-circuits",
   "version": "1.0.0",
-  "description": "Flux Capacitor in React",
+  "description": "Time Circuits in React",
   "private": true,
   "scripts": {
     "build": "webpack --mode development --config webpack.config.js",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Greg Lara",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
